@@ -28,7 +28,7 @@ export function HeroPost({
       </div>
       <div className="md:grid md:grid-cols-2 md:gap-x-12 lg:gap-x-16">
         <div className="mb-8 md:mb-0">
-          <h3 className="mb-6 text-3xl md:text-4xl lg:text-5xl leading-tight font-bold text-gray-900">
+          <h3 className="mb-6 text-2xl md:text-3xl leading-tight font-semibold text-gray-900">
             <Link
               as={`/posts/${slug}`}
               href="/posts/[slug]"

@@ -17,7 +17,7 @@ const Header = () => {
               />
               <div className="flex items-center space-x-3 h-8">
                 <span className="text-gray-400 text-2xl font-thin leading-8">|</span>
-                <span className="text-lg font-normal text-gray-700 leading-8">Blog</span>
+                <Link href="/" className="text-lg font-normal text-gray-700 leading-8 hover:text-primary transition-colors">Blog</Link>
               </div>
             </Link>
           </div>

@@ -2,7 +2,7 @@ export function Intro() {
   return (
     <section className="py-16 md:py-24">
       <div className="text-center max-w-3xl mx-auto">
-        <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight text-gray-900 mb-6">
+        <h1 className="text-2xl md:text-3xl font-semibold tracking-tight leading-tight text-gray-900 mb-6">
           Blog
         </h1>
         <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>

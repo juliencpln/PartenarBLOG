@@ -19,7 +19,7 @@ export default function Index() {
         <Container>
           <div className="py-8">
             <p className="text-gray-600 mb-6">Bienvenue sur le blog de Partenar, votre source d'information sur les partenariats entre marques et créateurs de contenu.</p>
-            <h1 className="text-2xl font-bold text-gray-900">Article à la une</h1>
+            <h1 className="text-2xl md:text-3xl font-semibold text-gray-900">Article à la une</h1>
           </div>
           <div className="pb-8">
             <HeroPost

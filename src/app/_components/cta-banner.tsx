@@ -21,7 +21,7 @@ const CtaBanner = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-transparent" />
       <div className="relative z-10 max-w-4xl mx-auto px-6 py-12 sm:px-8 lg:px-12">
         <div className="text-center">
-          <h2 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">
+          <h2 className="text-2xl font-semibold tracking-tight text-white sm:text-3xl">
             Prêt à suivre les partenariats ?
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-base text-blue-100">
