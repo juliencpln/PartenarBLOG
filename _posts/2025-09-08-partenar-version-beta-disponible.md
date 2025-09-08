@@ -18,10 +18,8 @@ Cette première version marque une étape importante dans le développement de l
 
 Les fonctionnalités déjà présentes pour cette bêta :
 
-*   Tableau de bord avec les derniers partenariats, le top créateurs et le top marques
-    
+*   Tableau de bord avec les derniers partenariats, le top créateurs et le top marques 
 *   Liste des créateurs, de leurs partenariats et des marques avec qui ils ont travaillé
-    
 *   Liste des marques, de leurs partenariats et des créateurs avec qui elles ont travaillé
     
 

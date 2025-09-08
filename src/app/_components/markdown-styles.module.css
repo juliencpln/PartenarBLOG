@@ -16,3 +16,24 @@
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
 }
+
+.markdown a {
+  @apply text-primary underline hover:text-blue-700 transition-colors;
+}
+
+.markdown ul {
+  @apply list-disc list-inside;
+}
+
+.markdown ol {
+  @apply list-decimal list-inside;
+}
+
+.markdown ul li,
+.markdown ol li {
+  @apply mb-2;
+}
+
+.markdown blockquote {
+  @apply border-l-4 border-primary pl-4 italic text-gray-700;
+}

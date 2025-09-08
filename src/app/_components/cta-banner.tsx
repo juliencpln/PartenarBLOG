@@ -19,7 +19,7 @@ const CtaBanner = () => {
       
       {/* Additional gradient overlay for depth */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-transparent" />
-      <div className="relative z-10 max-w-4xl mx-auto px-6 py-12 sm:px-8 lg:px-12">
+      <div className="relative z-10 max-w-4xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-2xl font-semibold tracking-tight text-white sm:text-3xl">
             Prêt à suivre les partenariats ?

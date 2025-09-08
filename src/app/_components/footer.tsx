@@ -3,7 +3,7 @@ import Image from "next/image";
 export function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
-      <div className="max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="py-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex items-center space-x-3">
@@ -24,7 +24,7 @@ export function Footer() {
               <a href="https://partenar.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
                 En savoir plus sur Partenar
               </a>
-              <span className="text-gray-500">© {new Date().getFullYear()} Partenar</span>
+              <span className="text-gray-500">© 2025 Partenar</span>
             </div>
           </div>
         </div>
