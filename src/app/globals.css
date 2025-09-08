@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --background: rgb(255, 255, 255);
+  --foreground: #171717;
+}
+
+@layer base {
+  :root {
+    --color-primary: 39 155 255; /* Convertir #279BFF en RGB */
+  }
+}
+
+body {
+  color: var(--foreground);
+  background-color: var(--background);
+  font-weight: 300;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+html {
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
+}
+
+figcaption p {
+  text-align: center;
+}

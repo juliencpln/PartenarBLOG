@@ -1,21 +1,24 @@
-import { CMS_NAME } from "@/lib/constants";
-
 export function Intro() {
   return (
-    <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
-      <h1 className="text-5xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
-        Blog.
-      </h1>
-      <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        A statically generated blog example using{" "}
-        <a
-          href="https://nextjs.org/"
-          className="underline hover:text-blue-600 duration-200 transition-colors"
-        >
-          Next.js
-        </a>{" "}
-        and {CMS_NAME}.
-      </h4>
+    <section className="py-16 md:py-24">
+      <div className="text-center max-w-3xl mx-auto">
+        <h1 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight text-gray-900 mb-6">
+          Blog
+        </h1>
+        <div className="w-24 h-1 bg-primary mx-auto mb-8"></div>
+        <p className="text-xl leading-relaxed text-gray-600 mb-6">
+          Découvrez les dernières tendances, analyses et conseils sur l'écosystème des partenariats entre créateurs de contenu et marques.
+        </p>
+        <p className="text-gray-500">
+          Par l'équipe{" "}
+          <a
+            href="https://app.partenar.com"
+            className="text-primary hover:text-blue-700 font-medium transition-colors"
+          >
+            Partenar
+          </a>
+        </p>
+      </div>
     </section>
   );
 }
