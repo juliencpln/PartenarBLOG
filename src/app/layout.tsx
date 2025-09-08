@@ -9,6 +9,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://blog.partenar.com'),
   title: "Blog Partenar - Actualités et analyses du marketing d'influence",
   description: "Découvrez les dernières tendances, analyses et conseils sur l'écosystème des partenariats entre créateurs de contenu et marques.",
   keywords: "partenariats, créateurs, influenceurs, marques, marketing d'influence, sponsoring, collaboration",
