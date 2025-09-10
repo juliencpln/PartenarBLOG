@@ -4,6 +4,7 @@ excerpt: Plus de deux mois après sa sortie en salle et sur Youtube, le
   documentaire "Kaizen" sur l'ascension de l'Everest par le youtubeur Inoxtag
   culmine plus de 37 millions de vues, un véritable succès pour le long format
   autour duquel les marques ont pris une place de choix.
+coverImage: /assets/inox_everest.png
 date: 2024-11-13T12:30:00.000Z
 author:
   name: Julien C.
