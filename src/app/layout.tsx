@@ -3,6 +3,8 @@ import CtaBanner from "@/app/_components/cta-banner";
 import { HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { PostHogProvider } from './providers'
+
 
 import "./globals.css";
 
@@ -47,11 +49,13 @@ export default function RootLayout({
         <meta name="theme-color" content="#279BFF" />
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
-      <body className={inter.className}>
-        <div className="min-h-screen bg-gray-50">{children}</div>
-        <CtaBanner />
-        <Footer />
-      </body>
+      <PostHogProvider>
+        <body className={inter.className}>
+          <div className="min-h-screen bg-gray-50">{children}</div>
+          <CtaBanner />
+          <Footer />
+        </body>
+      </PostHogProvider>
     </html>
   );
 }
