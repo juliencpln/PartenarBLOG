@@ -6,8 +6,8 @@ const BASE_URL = "https://partenar.com";
 const CtaBanner = () => {
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-7xl py-16 sm:px-6 sm:py-24 lg:px-8">
-        <div className="relative isolate overflow-hidden bg-gradient-to-br from-[#0061FF] to-[#60EFFF] px-6 pt-16 shadow-2xl rounded-xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+      <div className="mx-auto max-w-7xl px-6 py-8 sm:py-24 lg:px-8">
+        <div className="relative isolate overflow-hidden overflow-x-clip bg-gradient-to-br from-[#0061FF] to-[#60EFFF] px-6 pt-6 shadow-2xl rounded-xl sm:px-16 sm:pt-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0 min-[480px]:pb-12 min-[560px]:pb-16 sm:pb-20 md:pb-16 lg:pb-0">
           {/* Dashed grid lines background */}
           <div className="absolute inset-0 -z-10">
             <svg className="h-full w-full" preserveAspectRatio="none">
@@ -34,16 +34,16 @@ const CtaBanner = () => {
             <p className="mt-6 text-lg/8 text-pretty text-white/90">
               Commencez à suivre les partenariats dès maintenant. Inscrivez-vous aujourd&apos;hui et voyez comment Partenar peut vous aider dans votre stratégie.
             </p>
-            <div className="mt-10 flex flex-col items-center lg:items-start gap-4">
-              <div className="flex flex-col items-center gap-3">
-                <div className="flex items-center gap-x-6">
+            <div className="mt-10 flex flex-col items-center lg:items-start gap-4 w-full sm:w-auto">
+              <div className="flex flex-col items-center gap-3 w-full sm:w-auto">
+                <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-x-6 w-full sm:w-auto">
                   <Link
                     href="https://app.partenar.com/register"
-                    className="rounded-lg bg-white px-6 py-3 text-sm font-semibold text-[#0061FF] shadow-sm hover:bg-gray-50 transition-all"
+                    className="w-full sm:w-auto text-center rounded-lg bg-white px-6 py-3 text-sm font-semibold text-[#0061FF] shadow-sm hover:bg-gray-50 transition-all"
                   >
                     Essayer Partenar
                   </Link>
-                  <Link href="https://partenar.com/contact" className="text-sm/6 font-semibold text-white hover:text-white/80 transition-colors">
+                  <Link href="https://partenar.com/contact" className="w-full sm:w-auto text-center text-sm/6 font-semibold text-white hover:text-white/80 transition-colors">
                     Demander une démo
                   </Link>
                 </div>
@@ -55,8 +55,8 @@ const CtaBanner = () => {
           </div>
 
           {/* Dashboard Mockup - Fidèle à Partenar */}
-          <div className="relative -mt-40 lg:mt-6 flex justify-center lg:justify-start lg:items-center lg:-mr-96">
-            <div className="rounded-lg bg-white shadow-2xl overflow-hidden border border-slate-200/50 lg:ml-16 min-w-[700px] origin-center lg:origin-top-left scale-[0.65] sm:scale-[0.75] lg:scale-100 translate-y-28 sm:translate-y-24 lg:translate-y-0">
+          <div className="relative -mt-24 min-[480px]:-mt-12 min-[560px]:-mt-6 sm:-mt-2 md:mt-2 lg:mt-6 flex justify-center lg:justify-start lg:items-center lg:-mr-96 mb-[-140px] min-[480px]:mb-[-140px] min-[560px]:mb-[-160px] sm:mb-[-180px] md:mb-[-160px] lg:mb-0">
+            <div className="rounded-lg bg-white shadow-2xl overflow-hidden border border-slate-200/50 lg:ml-16 min-w-[700px] origin-center lg:origin-top-left scale-[0.46] min-[480px]:scale-[0.58] min-[560px]:scale-[0.7] sm:scale-[0.8] md:scale-[0.9] lg:scale-100">
               {/* App Layout */}
               <div className="flex h-[460px]">
                 {/* Sidebar */}
