@@ -7,7 +7,7 @@ const CtaBanner = () => {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-7xl py-16 sm:px-6 sm:py-24 lg:px-8">
-        <div className="relative isolate overflow-hidden bg-gradient-to-br from-[#0061FF] to-[#60EFFF] px-6 pt-16 shadow-2xl sm:rounded-xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+        <div className="relative isolate overflow-hidden bg-gradient-to-br from-[#0061FF] to-[#60EFFF] px-6 pt-16 shadow-2xl rounded-xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
           {/* Dashed grid lines background */}
           <div className="absolute inset-0 -z-10">
             <svg className="h-full w-full" preserveAspectRatio="none">
@@ -54,9 +54,9 @@ const CtaBanner = () => {
             </div>
           </div>
 
-          {/* Dashboard Mockup */}
-          <div className="hidden lg:flex items-center -mr-96 mt-6">
-            <div className="rounded-lg bg-white shadow-2xl overflow-hidden border border-slate-200/50 ml-16 min-w-[700px]">
+          {/* Dashboard Mockup - Fidèle à Partenar */}
+          <div className="relative -mt-40 lg:mt-6 flex justify-center lg:justify-start lg:items-center lg:-mr-96">
+            <div className="rounded-lg bg-white shadow-2xl overflow-hidden border border-slate-200/50 lg:ml-16 min-w-[700px] origin-center lg:origin-top-left scale-[0.65] sm:scale-[0.75] lg:scale-100 translate-y-28 sm:translate-y-24 lg:translate-y-0">
               {/* App Layout */}
               <div className="flex h-[460px]">
                 {/* Sidebar */}
@@ -129,7 +129,7 @@ const CtaBanner = () => {
                     <h1 className="text-sm font-semibold text-slate-800">Tableau de bord</h1>
                     <div className="flex items-center gap-2">
                       <span className="text-[10px] text-slate-500">Marie Dupont</span>
-                      <div className="w-6 h-6 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-white text-[8px] font-medium">MD</div>
+                      <div className="w-6 h-6 rounded-full bg-[#279BFF] flex items-center justify-center text-white text-[8px] font-medium">MD</div>
                     </div>
                   </div>
 
@@ -389,7 +389,7 @@ const CtaBanner = () => {
                             </div>
                             <div className="flex items-center gap-1">
                               <div className="w-3 h-3 rounded bg-black flex items-center justify-center p-0.5">
-                                <Image src={`${BASE_URL}/logos/gymshark-logo.png`} alt="Gymshark" width={10} height={10} className="w-full h-full object-contain invert" unoptimized />
+                                <Image src={`${BASE_URL}/logos/gymshark-logo.png`} alt="Gymshark" width={10} height={10} className="w-full h-full object-contain" unoptimized />
                               </div>
                               <div className="text-[6px] text-slate-500">Gymshark</div>
                             </div>
@@ -507,8 +507,8 @@ const CtaBanner = () => {
                               <div className="flex-1">
                                 <div className="text-[8px] font-medium text-slate-700">Nike</div>
                               </div>
-                              <span className="text-[7px] text-slate-400">Sport</span>
-                              <span className="text-[7px] text-slate-500">12 part.</span>
+                              <span className="text-[6px] text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded-full">Sport</span>
+                              <span className="text-[7px] text-slate-500">12 partenariats</span>
                             </div>
                             <div className="px-1.5 py-[7px] flex items-center gap-2">
                               <div className="w-5 h-5 rounded bg-black flex items-center justify-center p-0.5">
@@ -517,8 +517,8 @@ const CtaBanner = () => {
                               <div className="flex-1">
                                 <div className="text-[8px] font-medium text-slate-700">Dior</div>
                               </div>
-                              <span className="text-[7px] text-slate-400">Luxe</span>
-                              <span className="text-[7px] text-slate-500">8 part.</span>
+                              <span className="text-[6px] text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded-full">Luxe</span>
+                              <span className="text-[7px] text-slate-500">8 partenariats</span>
                             </div>
                             <div className="px-1.5 py-[7px] flex items-center gap-2">
                               <div className="w-5 h-5 rounded bg-black flex items-center justify-center p-0.5">
@@ -527,8 +527,8 @@ const CtaBanner = () => {
                               <div className="flex-1">
                                 <div className="text-[8px] font-medium text-slate-700">Spotify</div>
                               </div>
-                              <span className="text-[7px] text-slate-400">Musique</span>
-                              <span className="text-[7px] text-slate-500">6 part.</span>
+                              <span className="text-[6px] text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded-full">Musique</span>
+                              <span className="text-[7px] text-slate-500">6 partenariats</span>
                             </div>
                             <div className="px-1.5 py-[7px] flex items-center gap-2">
                               <div className="w-5 h-5 rounded bg-black flex items-center justify-center p-0.5">
@@ -537,8 +537,8 @@ const CtaBanner = () => {
                               <div className="flex-1">
                                 <div className="text-[8px] font-medium text-slate-700">Apple</div>
                               </div>
-                              <span className="text-[7px] text-slate-400">Tech</span>
-                              <span className="text-[7px] text-slate-500">5 part.</span>
+                              <span className="text-[6px] text-slate-500 bg-slate-100 px-1.5 py-0.5 rounded-full">Tech</span>
+                              <span className="text-[7px] text-slate-500">5 partenariats</span>
                             </div>
                           </div>
                         </div>
