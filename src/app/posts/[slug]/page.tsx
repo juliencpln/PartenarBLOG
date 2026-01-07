@@ -19,9 +19,9 @@ export default async function Post({ params }: Params) {
   return (
     <>
       <Header />
-      <main className="bg-white min-h-screen">
+      <main className="bg-white min-h-screen pt-24">
         <Container>
-          <article className="py-16">
+          <article className="pb-8">
             <PostHeader
               title={post.title}
               coverImage={post.coverImage}

@@ -1,5 +1,5 @@
 .markdown {
-  @apply text-lg leading-relaxed;
+  @apply text-lg leading-relaxed text-gray-600;
 }
 
 .markdown p,
@@ -10,11 +10,15 @@
 }
 
 .markdown h2 {
-  @apply text-3xl mt-12 mb-4 leading-snug;
+  @apply text-3xl font-medium tracking-tight text-gray-900 mt-12 mb-4 leading-snug;
 }
 
 .markdown h3 {
-  @apply text-2xl mt-8 mb-4 leading-snug;
+  @apply text-2xl font-medium tracking-tight text-gray-900 mt-8 mb-4 leading-snug;
+}
+
+.markdown h4 {
+  @apply text-xl font-medium tracking-tight text-gray-900 mt-6 mb-3 leading-snug;
 }
 
 .markdown a {
@@ -22,18 +26,38 @@
 }
 
 .markdown ul {
-  @apply list-disc list-inside;
+  @apply list-disc pl-6;
 }
 
 .markdown ol {
-  @apply list-decimal list-inside;
+  @apply list-decimal pl-6;
 }
 
 .markdown ul li,
 .markdown ol li {
-  @apply mb-2;
+  @apply mb-2 pl-2;
 }
 
 .markdown blockquote {
   @apply border-l-4 border-primary pl-4 italic text-gray-700;
+}
+
+.markdown strong {
+  @apply font-semibold text-gray-900;
+}
+
+.markdown code {
+  @apply bg-gray-100 px-1.5 py-0.5 rounded text-sm text-gray-800;
+}
+
+.markdown pre {
+  @apply bg-gray-100 p-4 rounded-lg overflow-x-auto my-6;
+}
+
+.markdown pre code {
+  @apply bg-transparent p-0;
+}
+
+.markdown img {
+  @apply rounded-lg my-6;
 }

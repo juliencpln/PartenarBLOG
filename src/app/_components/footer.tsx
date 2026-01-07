@@ -1,32 +1,20 @@
-import Image from "next/image";
+import Link from 'next/link';
 
 export function Footer() {
   return (
-    <footer className="bg-gray-900 text-white">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="py-8">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="flex items-center space-x-3">
-              <Image
-                src="/logo.svg"
-                alt="Partenar"
-                width={120}
-                height={26}
-                className="h-5 w-auto filter brightness-0 invert flex-shrink-0 -mt-0.5"
-              />
-              <div className="flex items-center space-x-2">
-                <span className="text-gray-400 text-sm font-light">|</span>
-                <span className="text-sm font-normal text-gray-300">Blog</span>
-              </div>
-            </div>
-            
-            <div className="flex items-center space-x-6 text-sm text-gray-400">
-              <a href="https://partenar.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
-                En savoir plus sur Partenar
-              </a>
-              <span className="text-gray-500">© 2025 Partenar</span>
-            </div>
+    <footer className="border-t border-gray-100 bg-white">
+      <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="flex flex-wrap justify-center md:justify-start gap-x-6 gap-y-2">
+            <Link href="https://partenar.com/cgu" className="text-sm text-gray-500 hover:text-gray-700 transition-colors">CGU</Link>
+            <Link href="https://partenar.com/privacy" className="text-sm text-gray-500 hover:text-gray-700 transition-colors">Confidentialité</Link>
+            <Link href="https://partenar.com/legal" className="text-sm text-gray-500 hover:text-gray-700 transition-colors">Mentions légales</Link>
+            <Link href="https://partenar.com/contact" className="text-sm text-gray-500 hover:text-gray-700 transition-colors">Contact</Link>
+            <Link href="/" className="text-sm text-gray-500 hover:text-gray-700 transition-colors">Blog</Link>
           </div>
+          <p className="text-sm text-gray-400">
+            © {new Date().getFullYear()} Partenar
+          </p>
         </div>
       </div>
     </footer>
