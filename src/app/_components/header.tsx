@@ -8,7 +8,6 @@ import Image from 'next/image';
 
 const navigation = [
   { name: 'Fonctionnalités', href: 'https://partenar.com/#features' },
-  { name: 'Témoignages', href: 'https://partenar.com/#testimonials' },
   { name: 'FAQ', href: 'https://partenar.com/#faq' },
   { name: 'Tarifs', href: 'https://partenar.com/#pricing' },
   { name: 'Contact', href: 'https://partenar.com/contact' },
