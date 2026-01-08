@@ -52,7 +52,7 @@ export default function Header() {
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link href="https://app.partenar.com/login" className="text-sm/6 font-semibold text-gray-900 hover:text-primary transition-colors">
-            Se connecter <span aria-hidden="true">&rarr;</span>
+            Se connecter
           </Link>
         </div>
       </nav>

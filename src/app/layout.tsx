@@ -2,13 +2,9 @@ import Footer from "@/app/_components/footer";
 import CtaBanner from "@/app/_components/cta-banner";
 import { HOME_OG_IMAGE_URL } from "@/lib/constants";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { PostHogProvider } from './providers'
 
-
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://blog.partenar.com'),
@@ -50,7 +46,7 @@ export default function RootLayout({
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
       <PostHogProvider>
-        <body className={inter.className}>
+        <body className="antialiased">
           <div className="min-h-screen bg-gray-50">{children}</div>
           <CtaBanner />
           <Footer />
