@@ -51,9 +51,11 @@ export default function Header() {
           ))}
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <Link href="https://app.partenar.com/login" className="text-sm/6 font-semibold text-gray-900 hover:text-primary transition-colors">
-            Se connecter
-          </Link>
+          <div className="gradient-border !rounded-lg hover:opacity-80 transition-opacity">
+            <Link href="https://app.partenar.com/login" className="block text-sm/6 font-semibold gradient-text px-4 py-2">
+              Se connecter
+            </Link>
+          </div>
         </div>
       </nav>
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
