@@ -72,6 +72,8 @@ Sur Instagram, la logique est différente mais complémentaire. Les 3 posts sont
 
 ## Le modèle Chamberlain Coffee
 
+![Emma Chamberlain et Chamberlain Coffee](/assets/emma-chamberlain-coffee.jpg)
+
 Le parallèle le plus pertinent reste Emma Chamberlain et son café.
 
 En 2019, Chamberlain lance Chamberlain Coffee à 18 ans. La marque projette aujourd'hui **33 millions de dollars** de revenus annuels et est distribuée dans plus de 8 500 magasins aux États-Unis. Le café faisait partie de son identité bien avant le lancement : ses vidéos la montraient constamment en train de préparer des cafés, d'inventer des recettes. Quand la marque est arrivée, c'était une extension naturelle de son univers.
@@ -113,5 +115,3 @@ Ce baromètre a été réalisé grâce à **[Partenar](https://partenar.com)**, 
 Vous êtes un professionnel du secteur et vous souhaitez suivre les partenariats de votre marché, identifier les créateurs qui performent ou analyser la stratégie de vos concurrents ? Pendant que vous lisez ceci, de nouveaux partenariats se signent dans votre secteur. Ne passez pas à côté.
 
 **[Essayer gratuitement Partenar →](https://app.partenar.com/register)**
-
-<script async src="//www.instagram.com/embed.js"></script>

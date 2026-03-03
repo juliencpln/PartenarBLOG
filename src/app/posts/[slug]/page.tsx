@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Script from "next/script";
 import { getAllPosts, getPostBySlug } from "../../../lib/api";
 import markdownToHtml from "../../../lib/markdownToHtml";
 import Container from "../../_components/container";
@@ -15,6 +16,7 @@ export default async function Post({ params }: Params) {
   }
 
   const content = await markdownToHtml(post.content || "");
+  const hasInstagramEmbed = content.includes("instagram-media");
 
   return (
     <>
@@ -32,6 +34,9 @@ export default async function Post({ params }: Params) {
           </article>
         </Container>
       </main>
+      {hasInstagramEmbed && (
+        <Script src="https://www.instagram.com/embed.js" strategy="lazyOnload" />
+      )}
     </>
   );
 }

@@ -61,3 +61,29 @@
 .markdown img {
   @apply rounded-lg my-6;
 }
+
+/* Tables */
+.markdown table {
+  @apply w-full my-6 text-sm border-collapse;
+}
+
+.markdown thead th {
+  @apply bg-gray-100 text-gray-900 font-semibold text-left px-4 py-3 border border-gray-200;
+}
+
+.markdown tbody td {
+  @apply px-4 py-3 border border-gray-200 text-gray-600;
+}
+
+.markdown tbody tr:last-child td {
+  @apply bg-gray-50 font-semibold text-gray-900;
+}
+
+/* Embeds */
+.markdown iframe {
+  @apply rounded-lg my-6;
+}
+
+.markdown :global(.instagram-media) {
+  @apply mx-auto !important;
+}
