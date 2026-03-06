@@ -112,6 +112,6 @@ Ce modèle va-t-il se généraliser ? Probablement pas à cette échelle — peu
 
 Ce baromètre a été réalisé grâce à **[Partenar](https://partenar.com)**, la plateforme qui analyse les partenariats entre créateurs et marques. Les données couvrent l'ensemble des contenus de Squeezie (xsqueezie / squeezie) depuis le 3 mai 2025, soit 74 contenus sur YouTube et Instagram.
 
-Vous êtes un professionnel du secteur et vous souhaitez suivre les partenariats de votre marché, identifier les créateurs qui performent ou analyser la stratégie de vos concurrents ? Pendant que vous lisez ceci, de nouveaux partenariats se signent dans votre secteur. Ne passez pas à côté.
+**[Partenar](https://partenar.com)** analyse plus de **2 500 partenariats** entre créateurs et marques. Suivez les partenariats de votre marché, identifiez les créateurs qui performent et analysez la stratégie de vos concurrents — le tout sur une seule plateforme.
 
 **[Essayer gratuitement Partenar →](https://app.partenar.com/register)**

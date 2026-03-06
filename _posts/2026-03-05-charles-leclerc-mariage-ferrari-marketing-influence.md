@@ -93,8 +93,8 @@ Le risque, évidemment, c'est que ces moments ne se commandent pas. On ne planif
 
 ---
 
-Ce sujet a été analysé grâce à **[Partenar](https://partenar.com)**, la plateforme qui analyse les partenariats entre créateurs et marques. Plus de **3 500 partenariats** sont déjà référencés sur la plateforme.
+Ce sujet a été analysé grâce à **[Partenar](https://partenar.com)**, la plateforme qui analyse les partenariats entre créateurs et marques. Plus de **2 500 partenariats** sont déjà référencés sur la plateforme.
 
-Vous êtes un professionnel du secteur et vous souhaitez suivre les partenariats de votre marché, identifier les créateurs qui performent ou analyser la stratégie de vos concurrents ? Pendant que vous lisez ceci, de nouveaux partenariats se signent dans votre secteur. Ne passez pas à côté.
+**[Partenar](https://partenar.com)** analyse plus de **2 500 partenariats** entre créateurs et marques. Suivez les partenariats de votre marché, identifiez les créateurs qui performent et analysez la stratégie de vos concurrents — le tout sur une seule plateforme.
 
 **[Essayer gratuitement Partenar →](https://app.partenar.com/register)**

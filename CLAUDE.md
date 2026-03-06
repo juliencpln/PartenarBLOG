@@ -113,10 +113,12 @@ Ce [baromètre/classement] a été réalisé grâce à **[Partenar](https://part
 ### Paragraphe CTA (identique pour tous les articles)
 
 ```
-Vous êtes un professionnel du secteur et vous souhaitez suivre les partenariats de votre marché, identifier les créateurs qui performent ou analyser la stratégie de vos concurrents ? Pendant que vous lisez ceci, de nouveaux partenariats se signent dans votre secteur. Ne passez pas à côté.
+**[Partenar](https://partenar.com)** analyse plus de **2 500 partenariats** entre créateurs et marques. Suivez les partenariats de votre marché, identifiez les créateurs qui performent et analysez la stratégie de vos concurrents — le tout sur une seule plateforme.
 
 **[Essayer gratuitement Partenar →](https://app.partenar.com/register)**
 ```
+
+Note : mettre à jour le nombre de partenariats régulièrement via `SELECT COUNT(*) FROM placement_view_v2`.
 
 ## Format HTML (WordPress)
 
