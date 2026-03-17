@@ -8,7 +8,7 @@ import { useEffect } from 'react'
 export function PostHogProvider({ children }: { children: React.ReactNode }) {
     useEffect(() => {
       posthog.init(process.env.NEXT_PUBLIC_POSTHOG_KEY!, {
-        api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST || 'https://t.partenar.io',
+        api_host: process.env.NEXT_PUBLIC_POSTHOG_HOST || 'https://t.partenar.com',
         ui_host: 'https://eu.posthog.com',
         person_profiles: 'identified_only',
       })
